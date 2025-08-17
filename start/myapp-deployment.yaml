@@ -13,7 +13,7 @@ spec:
         app: myapp
     spec:
       containers:
-      - image: nginx:latest
+      - image: nginx:stable-alpine3.21-slim
         name: myapp
         ports:
         - containerPort: 80
